@@ -23,7 +23,7 @@
 
 ## Nakamura and Steinsson 
 
-* [Update Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WUXWHS) (Miguel Acosta)
+* [Updated Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WUXWHS) (Miguel Acosta)
 * [Original Files](https://eml.berkeley.edu/~enakamura/papers.html)
 
 ## Bu, Rogers, and Wu 
