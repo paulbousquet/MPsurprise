@@ -31,7 +31,7 @@
 * [Updated Data](https://sites.google.com/view/wenbinwu-ucsd/research)
 * [Other Updated Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MQMJHT)
 
-## Aruoba and Dreschel 
+## Aruoba and Drechsel 
 * [Full replication and data](https://econweb.umd.edu/~drechsel/research.html)
 * [Some additional resources for constructing Greenbook/Tealbook data ](https://github.com/paulbousquet/GBMPSurprise)
 
