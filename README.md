@@ -1,5 +1,7 @@
 (more coming soon)
 
+# Additional Resources 
+
 ## USMPD
 
 * [Contains all relevant high-frequency futures and asset pricing data since 1994](https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/)
@@ -12,7 +14,7 @@
 
 ## Bauer and Swanson 
 
-* Update and Replication (coming soon)
+* Update and Replication 
 * [Data updated through 2023 ](https://www.frbsf.org/research-and-insights/data-and-indicators/monetary-policy-surprises/)
 
 ## Miranda-Agrippino and Ricco
@@ -35,5 +37,5 @@
 * [Full replication and data](https://econweb.umd.edu/~drechsel/research.html)
 * [Some additional resources for constructing Greenbook/Tealbook data ](https://github.com/paulbousquet/GBMPSurprise)
 
-## Additional Resources 
+## Other collections  
 * [Several series consolodated by Jonathan Adams](https://github.com/jonathanjadams/structuralshocks)
