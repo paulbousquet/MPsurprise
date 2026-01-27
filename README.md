@@ -1,5 +1,16 @@
 (more coming soon)
 
+If you feel so inclined, here's a biblatex entry for a forthcoming WP to cite 
+
+```
+@unpublished{BousquetPuzzles,
+  author = {Bousquet, Paul},
+  title  = {Where Do Price and Output Puzzles Come From?},
+  year   = {2026},
+  note   = {Working Paper}
+}
+```
+
 # Additional Resources 
 
 ## USMPD
