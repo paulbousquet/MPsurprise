@@ -1,6 +1,6 @@
 (more coming soon)
 
-If you feel so inclined, here's a biblatex entry for a forthcoming WP to cite 
+If you feel so inclined, here's a bibtex entry for a forthcoming WP to cite 
 
 ```
 @unpublished{BousquetPuzzles,
