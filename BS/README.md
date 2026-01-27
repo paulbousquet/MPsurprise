@@ -1,0 +1,1 @@
+It's unfortunately not possible to do an automatically updating series of Bauer and Swanson because some of the data cannot be pulled automatically. Instead, I provide some materials to facillitate the replication. 
