@@ -144,11 +144,15 @@ quietly foreach prefix of local prefixes {
  gen monthly = mofd(raw_daten)
 format monthly %tm
 
+gen nzlb1 = monthly < m(2008m11) | monthly > m(2015m5)
+gen nzlb2 = monthly < m(2020m3) | monthly > m(2022m8)
+gen nzlb = nzlb1 & nzlb2 
+
+drop if unscheduled | !nzlb | monthly < m(1993m1)
+
 sort raw_date
 gen t = _n
  
 tsset t
 
-drop if unscheduled
-drop if monthly < m(1993m1)
 export delimited using "prep.csv", replace
