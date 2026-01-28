@@ -144,11 +144,18 @@ quietly foreach prefix of local prefixes {
  gen monthly = mofd(raw_daten)
 format monthly %tm
 
-gen nzlb1 = monthly < m(2008m11) | monthly > m(2015m5)
-gen nzlb2 = monthly < m(2020m3) | monthly > m(2022m8)
+gen nzlb1 = monthly < m(2008m11) | monthly > m(2014m12)
+gen nzlb2 = monthly < m(2020m3) | monthly > m(2021m3)
 gen nzlb = nzlb1 & nzlb2 
 
-drop if unscheduled | !nzlb | monthly < m(1993m1)
+drop if unscheduled | monthly < m(1993m1)
+
+unab hifi : mp* ff* ed*
+qui foreach var of local hifi {
+	replace `var' = . if !nzlb
+}
+
+replace nzlb = 0 if (monthly > m(2014m12) & monthly < m(2015m6)) | (monthly > m(2021m3) & monthly < m(2021m8)) 
 
 sort raw_date
 gen t = _n
